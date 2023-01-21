@@ -66,15 +66,15 @@
 #34 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #35 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #36 {main}
-"} 
+"}
 [2023-01-20 09:59:07] local.ERROR: Cannot declare class CreateSessionsTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class CreateSessionsTable, because the name is already in use at /var/www/ecommerce/database/migrations/2023_01_18_112656_create_sessions_table.php:7)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2023-01-20 10:02:40] local.ERROR: Cannot declare class CreateSessionsTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class CreateSessionsTable, because the name is already in use at /var/www/ecommerce/database/migrations/2023_01_18_112656_create_sessions_table.php:7)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2023-01-20 10:20:40] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'sessions' already exists (SQL: create table `sessions` (`id` varchar(255) not null, `user_id` bigint unsigned null, `ip_address` varchar(45) null, `user_agent` text null, `payload` text not null, `last_activity` int not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'sessions' already exists (SQL: create table `sessions` (`id` varchar(255) not null, `user_id` bigint unsigned null, `ip_address` varchar(45) null, `user_agent` text null, `payload` text not null, `last_activity` int not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -144,7 +144,7 @@
 #30 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #31 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #32 {main}
-"} 
+"}
 [2023-01-20 10:21:44] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'sessions' already exists (SQL: create table `sessions` (`id` varchar(255) not null, `user_id` bigint unsigned null, `ip_address` varchar(45) null, `user_agent` text null, `payload` text not null, `last_activity` int not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'sessions' already exists (SQL: create table `sessions` (`id` varchar(255) not null, `user_id` bigint unsigned null, `ip_address` varchar(45) null, `user_agent` text null, `payload` text not null, `last_activity` int not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -214,7 +214,7 @@
 #30 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #31 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #32 {main}
-"} 
+"}
 [2023-01-20 10:50:44] local.ERROR: No arguments expected for "migrate:fresh" command, got "–seed". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"migrate:fresh\" command, got \"–seed\". at /var/www/ecommerce/vendor/symfony/console/Input/ArgvInput.php:193)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
@@ -229,7 +229,7 @@
 #9 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #10 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
-"} 
+"}
 [2023-01-20 10:50:55] local.ERROR: The "-s" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-s\" option does not exist. at /var/www/ecommerce/vendor/symfony/console/Input/ArgvInput.php:122)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/symfony/console/Input/ArgvInput.php(104): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet()
@@ -245,7 +245,7 @@
 #10 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #11 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
-"} 
+"}
 [2023-01-20 10:51:06] local.ERROR: Class 'Database\Seeders\Storage' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\Storage' not found at /var/www/ecommerce/database/seeders/DatabaseSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
@@ -284,7 +284,7 @@
 #33 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #34 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #35 {main}
-"} 
+"}
 [2023-01-20 11:09:11] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -331,7 +331,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:10:18] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -378,7 +378,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:12:35] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -425,11 +425,11 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:13:49] local.ERROR: Cannot use Illuminate\Database\Seeder as Seeder because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use Illuminate\\Database\\Seeder as Seeder because the name is already in use at /var/www/ecommerce/database/seeders/DatabaseSeeder.php:7)
 [stacktrace]
 #0 {main}
-"} 
+"}
 [2023-01-20 11:14:22] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -476,7 +476,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:15:10] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -523,7 +523,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:15:27] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -570,7 +570,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:22:18] local.ERROR: Class 'Database\Seeders\User' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:16)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -617,7 +617,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-20 11:23:56] local.ERROR: Call to undefined method Illuminate\Foundation\Auth\User::factory() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method Illuminate\\Foundation\\Auth\\User::factory() at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:71)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException()
@@ -668,7 +668,7 @@
 #45 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #46 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #47 {main}
-"} 
+"}
 [2023-01-20 11:24:49] local.ERROR: Class 'Couchbase\User' not found {"exception":"[object] (Error(code: 0): Class 'Couchbase\\User' not found at /var/www/ecommerce/database/seeders/UserSeeder.php:18)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
@@ -715,7 +715,8 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
+<<<<<<< HEAD
 [2023-01-21 09:59:28] local.ERROR: Class 'Database\Seeders\Str' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\Str' not found at /var/www/ecommerce/database/seeders/CategorySeeder.php:19)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\CategorySeeder->run()
@@ -762,7 +763,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-21 10:00:47] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class="fas fa-mobile-alt"></i>, 2023-01-21 10:00:47, 2023-01-21 10:00:47)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class=\"fas fa-mobile-alt\"></i>, 2023-01-21 10:00:47, 2023-01-21 10:00:47)) at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -890,7 +891,7 @@
 #59 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #60 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #61 {main}
-"} 
+"}
 [2023-01-21 10:01:17] local.ERROR: Class 'Database\Seeders\Str' not found {"exception":"[object] (Error(code: 0): Class 'Database\\Seeders\\Str' not found at /var/www/ecommerce/database/seeders/CategorySeeder.php:20)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\CategorySeeder->run()
@@ -937,7 +938,7 @@
 #41 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #42 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #43 {main}
-"} 
+"}
 [2023-01-21 10:02:38] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class="fas fa-mobile-alt"></i>, 2023-01-21 10:02:38, 2023-01-21 10:02:38)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class=\"fas fa-mobile-alt\"></i>, 2023-01-21 10:02:38, 2023-01-21 10:02:38)) at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -1065,7 +1066,7 @@
 #59 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #60 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #61 {main}
-"} 
+"}
 [2023-01-21 10:05:17] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class="fas fa-mobile-alt"></i>, 2023-01-21 10:05:17, 2023-01-21 10:05:17)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'image' doesn't have a default value (SQL: insert into `categories` (`name`, `slug`, `icon`, `updated_at`, `created_at`) values (Celulares y tablets, celulares-y-tablets, <i class=\"fas fa-mobile-alt\"></i>, 2023-01-21 10:05:17, 2023-01-21 10:05:17)) at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -1193,7 +1194,7 @@
 #59 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #60 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #61 {main}
-"} 
+"}
 [2023-01-21 10:06:05] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value (SQL: insert into `brands` (`updated_at`, `created_at`) values (2023-01-21 10:06:05, 2023-01-21 10:06:05)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value (SQL: insert into `brands` (`updated_at`, `created_at`) values (2023-01-21 10:06:05, 2023-01-21 10:06:05)) at /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -1317,4 +1318,6 @@
 #57 /var/www/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
 #58 /var/www/ecommerce/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #59 {main}
-"} 
+"}
+=======
+>>>>>>> origin/main
